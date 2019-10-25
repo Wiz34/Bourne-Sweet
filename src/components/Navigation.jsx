@@ -20,10 +20,10 @@ const Navigation = () => {
           <Nav >
             <Nav.Link href="/about">OUR STORY</Nav.Link>
             <NavDropdown title="SWEETS" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/desserts">DESSERTS</NavDropdown.Item>
+              {/* <NavDropdown.Item href="/desserts">DESSERTS</NavDropdown.Item> */}
               <NavDropdown.Item href="/pies">PIES</NavDropdown.Item>
               <NavDropdown.Item href="/cakes">CAKES</NavDropdown.Item>
-              <NavDropdown.Item href="/cookies">COOKIES</NavDropdown.Item>
+              <NavDropdown.Item href="/bakedGoods">BAKED GOODS</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/contact">CONNECT</Nav.Link>
           </Nav>

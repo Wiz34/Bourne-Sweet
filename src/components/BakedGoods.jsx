@@ -52,7 +52,7 @@ const tileData = [
 ];
 
 
-const Cookies = () => {
+const BakedGoods = () => {
   const classes = useStyles();
   return (
     <div className='page fott dess'>
@@ -79,4 +79,4 @@ const Cookies = () => {
   )
 }
 
-export default Cookies;
+export default BakedGoods;

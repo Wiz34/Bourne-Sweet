@@ -4,10 +4,10 @@ import About from './components/About';
 import Home from './components/Home';
 import Footer from './components/Footer';
 import Navigation from './components/Navigation';
-import Desserts from './components/Desserts'
-import Pie from './components/Cakes'
-import Cakes from './components/Pies'
-import Cookies from './components/Cookies'
+// import Desserts from './components/Desserts'
+import Cakes from './components/Cakes'
+import Pies from './components/Pies'
+import BakedGoods from './components/BakedGoods'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 
@@ -24,10 +24,10 @@ class App extends React.Component {
               <Route path='/' exact component={Home} />
               <Route path='/about' component={About} />
               <Route path='/contact' component={Contact} />
-              <Route path='/desserts' component={Desserts} />
-              <Route path='/pies' component={Pie} />
+              {/* <Route path='/desserts' component={Desserts} /> */}
+              <Route path='/pies' component={Pies} />
               <Route path='/cakes' component={Cakes} />
-              <Route path='/cookies' component={Cookies} />
+              <Route path='/bakedGoods' component={BakedGoods} />
             </Switch>
           </div>
         </Router>
