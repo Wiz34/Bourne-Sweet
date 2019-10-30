@@ -11,12 +11,14 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 const useStyles = makeStyles({
 })
 const Footer = () => {
+  // debugger;
   const classes = useStyles();
   const [value, setValue] = React.useState('recents');
 
-  const handleChange = (event, newValue) => {
+  const handleChange = (newValue) => {
     setValue(newValue);
   };
+
 
   return (
     <div className='Footer'>

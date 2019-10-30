@@ -1,11 +1,7 @@
 import React from 'react'
-
 import { makeStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
-// import GridListTileBar from '@material-ui/core/GridListTileBar';
-// import IconButton from '@material-ui/core/IconButton';
-// import InfoIcon from '@material-ui/icons/Info';
 import image from '../assets /pie_1.jpg';
 import image2 from '../assets /pie_2.jpg';
 import image3 from '../assets /pie_3.jpg';
@@ -61,14 +57,7 @@ const Pies = () => {
           {tileData.map(tile => (
             <GridListTile key={tile.img}>
               <img className="main_image" src={tile.img} alt={tile.title} />
-              {/* <GridListTileBar
-                title={tile.title}
-                actionIcon={
-                  <IconButton aria-label={`info about ${tile.title}`} className={classes.icon}>
-                    <InfoIcon />
-                  </IconButton>
-                }
-              /> */}
+
             </GridListTile>
           ))}
         </GridList>

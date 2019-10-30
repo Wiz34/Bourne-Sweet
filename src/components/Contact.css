@@ -11,7 +11,7 @@
   text-transform: uppercase;
   margin: 0 0 20px 0;
   padding: 0;
-  padding-top: 20px;
+  padding-top: 25px;
   letter-spacing: .02em;
 }
 
@@ -41,13 +41,4 @@
   margin: auto;
   border: 0;
   border-bottom: 1px solid black;
-}
-
-.form-address {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-  margin-bottom: 33px;
 }

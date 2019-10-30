@@ -1,21 +1,14 @@
 import React from 'react';
-import Carousel from './ControlledCarousel'
+import Carousel from './ControlledCarousel';
 
+const Home = () => {
+  return (
+    <div className="page Home">
 
+      <Carousel />
+    </div>
 
-
-class Home extends React.Component {
-  render() {
-    return (
-      <div className="page Home">
-
-        <Carousel />
-      </div>
-    )
-
-  }
+  )
 }
-
-
 
 export default Home;
