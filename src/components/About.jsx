@@ -4,7 +4,7 @@ import chef from '../assets /chef-photo.jpg'
 
 const About = () => {
   return (
-    <div className="page About_Pg">
+    <div className="page_About_Pg">
       <div className="about_me_pic">
         <img src={chef} alt="Chef_Bourne" />
       </div>

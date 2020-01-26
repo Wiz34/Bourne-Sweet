@@ -30,9 +30,15 @@
   margin-right: auto;
   background-size: cover;
 }
+/*.about_me_pic {
+  background-image: url("/logo192.png");
+ background-repeat: repeat;
+}*/
+
 
 .About_Pg {
   padding-top: 100px;
+  
 }
 
 .text-block {
@@ -53,7 +59,14 @@
   letter-spacing: .02em;
   line-height: 1.333;
 }
+.page_About_Pg {
+  background-image: url('/logo192.png');
+  background-repeat: initial;
+}
 
+.page_About_Pg url {
+  filter:opacity(50%);
+}
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .sub {
     font-family: 'Karla', sans-serif;

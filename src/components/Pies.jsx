@@ -51,7 +51,7 @@ const Pies = () => {
   return (
     <div className='page fott dess'>
       <div className={classes.root}>
-        <GridList cellHeight={250} className={classes.gridList}>
+        <GridList cellHeight={160} className={classes.gridList}>
           <GridListTile key="Subheader" cols={2} style={{ height: 'auto' }}>
           </GridListTile>
           {tileData.map(tile => (

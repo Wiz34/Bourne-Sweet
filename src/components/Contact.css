@@ -32,13 +32,25 @@
   flex-basis: 500px;
   flex-grow: .5;
   height: 500px;
+  
+  
 }
 
 .contact-form .input {
   display: flex;
   font-style: oblique;
-  width: -webkit-fill-available;
+  
   margin: auto;
   border: 0;
   border-bottom: 1px solid black;
+
+  
 }
+
+.form-address {
+  background-image: url('/logo192.png');
+  background-repeat: initial;
+  filter: opacity(50%)
+}
+
+
